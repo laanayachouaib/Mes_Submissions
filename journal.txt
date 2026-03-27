@@ -1,0 +1,12 @@
+# Journal d'apprentissage Git
+
+## Objectifs du jour
+- Apprendre à utiliser git log
+- Comprendre git show
+- Explorer l'historique des commits
+
+## Date
+$(date)
+
+## Notes
+Git permet de consulter tout l'historique des modifications. 

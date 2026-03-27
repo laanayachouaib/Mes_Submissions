@@ -27,3 +27,31 @@ Toute personne souhaitant apprendre Git et ses bonnes pratiques.
 - Consulter la documentation dans le dossier \`docs/\`
 - Ouvrir une issue sur GitHub
 - Contacter l'équipe via les canaux de communication
+
+## Questions avancées
+
+### Comment gérer les conflits Git ?
+Utilisez \`git status\` pour identifier les conflits, puis résolvez-les manuellement dans les fichiers concernés.
+
+### Quelle est la différence entre merge et rebase ?
+- **merge** : Crée un commit de fusion, garde l'historique complet
+- **rebase** : Réécrit l'historique, donne une ligne plus propre
+
+### Comment revenir en arrière après un mauvais commit ?
+- \`git reset --soft HEAD~1\` : Annule le commit mais garde les modifications
+- \`git reset --hard HEAD~1\` : Annule complètement le commit
+- \`git revert <hash>\` : Crée un nouveau commit qui annule les changements
+
+## Bonnes pratiques
+
+### Convention de commits
+Utiliser le format : \`type(scope): description\`
+
+Types courants :
+- **feat** : Nouvelle fonctionnalité
+- **fix** : Correction de bug
+- **docs** : Documentation
+- **style** : Formatage
+- **refactor** : Refactorisation
+- **test** : Tests
+- **chore** : Maintenance

@@ -1,0 +1,36 @@
+# Résultats du challenge C06
+
+## Date d'exécution
+$(date)
+
+## Hash du 1er commit
+$(git log --pretty=format:"%H" --reverse | head -1)
+
+## Informations du 1er commit avec git show
+
+### Détails complets
+$(git show $(git log --pretty=format:"%H" --reverse | head -1) --stat)
+
+### Analyse
+Le premier commit contient :
+- Fichier: README.md
+- Message: \"Initial commit: Ajout du fichier README.md\"
+- Auteur: $(git log --pretty=format:"%an <%ae>" --reverse | head -1)
+
+## Autres commandes explorées
+
+### git log --oneline
+Affiche un historique compact :
+$(git log --oneline)
+
+### git log --graph
+Vue graphique des commits :
+$(git log --graph --oneline)
+
+### git show HEAD
+Affiche le dernier commit :
+$(git show HEAD --stat)
+
+## Conclusion
+git log permet de naviguer dans l'historique et trouver des commits spécifiques.
+git show permet d'inspecter en détail le contenu d'un commit particulier.

@@ -9,4 +9,8 @@
 $(date)
 
 ## Notes
-Git permet de consulter tout l'historique des modifications. 
+Git permet de consulter tout l'historique des modifications.
+
+## $(date) - Travail en cours (non commité)
+Je travaille sur une nouvelle fonctionnalité mais je dois changer de branche.
+Ce travail n'est pas encore terminé. 

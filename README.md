@@ -10,3 +10,18 @@ Ce projet est un exercice d\'apprentissage de Git et GitHub. Il contient une sé
 - ✅ **C04** : git status et staging - Ajout sélectif de fichiers
 - ✅ **C05** : Commit propre
 - ✅ **C06** : Lire l'historique (en cours)
+
+## Branches
+
+### Branche main
+Branche principale contenant les challenges validés.
+
+### Branche feature/about (active)
+Branche créée pour ajouter la documentation \"À propos\" du projet.
+- Création du fichier about.md
+- Amélioration de la documentation
+
+### Prochaines branches
+- feature/contact
+- feature/contributing
+- hotfix/corrections"

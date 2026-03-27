@@ -1,3 +1,3 @@
-"LIGNE MODIFIEE PAR BRANCHE 1 - Cette ligne va cr‚er un conflit" 
+"LIGNE MODIFIEE PAR BRANCHE 2 - Version complŠtement diff‚rente" 
 "DeuxiŠme ligne inchang‚e" 
 "TroisiŠme ligne" 

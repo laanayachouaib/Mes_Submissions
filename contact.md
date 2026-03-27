@@ -19,3 +19,17 @@
 
 ---
 *Document créé dans le cadre de la feature/a*
+## Formulaire de contact
+
+Pour nous contacter rapidement, vous pouvez utiliser le formulaire ci-dessous :
+
+\`\`\`
+Nom : _______________
+Email : _______________
+Sujet : _______________
+Message : _______________
+
+[Envoyer]
+\`\`\`
+
+*Note : Le formulaire interactif sera disponible dans la version suivante.*

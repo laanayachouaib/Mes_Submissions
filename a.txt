@@ -1,1 +1,3 @@
-"Ceci est le fichier A" 
+"LIGNE MODIFIEE PAR BRANCHE 1 - Cette ligne va cr‚er un conflit" 
+"DeuxiŠme ligne inchang‚e" 
+"TroisiŠme ligne" 

@@ -1,0 +1,29 @@
+# Fichiers temporaires
+*.tmp
+*.log
+*.cache
+
+# Dossiers de cache
+cache/
+temp/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de build
+dist/
+build/
+*.o
+*.exe
+
+# Fichiers sensibles
+*.key
+*.pem
+.env
